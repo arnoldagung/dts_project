@@ -8,6 +8,10 @@
         font-size: 20px;
         margin-top: 15px;
     }
+
+    hr {
+        border: 3px solid white;
+    }
 }
 
 @media all and (max-width: 670px) {
@@ -33,5 +37,9 @@
     .content-txt p {
         font-size: 16px;
         margin-top: 10px;
+    }
+
+    hr {
+        border: 2px solid white;
     }
 }
