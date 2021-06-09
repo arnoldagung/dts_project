@@ -1,0 +1,37 @@
+@media all and (max-width: 1000px) {
+    .content-txt h1 {
+        font-size: 50px;
+        margin: 0;
+    }
+
+    .content-txt p {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+}
+
+@media all and (max-width: 670px) {
+    .content {
+        max-width: 600px;
+        flex-direction: column;
+    }
+
+    .content:nth-of-type(2n) {
+        flex-direction: column;
+    }
+
+    .content div {
+        flex: 2;
+        padding: 30px;
+    }
+
+    .content-txt h1 {
+        font-size: 35px;
+        margin: 0;
+    }
+
+    .content-txt p {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+}
