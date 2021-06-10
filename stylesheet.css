@@ -11,6 +11,59 @@ body {
     height: 100%;
 }
 
+header {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    padding-top: 10px;
+}
+
+header div {
+    flex: auto;
+}
+
+.header-logo {
+    font-family: 'Staatliches';
+    font-size: 50px;
+    color: #df0712;
+}
+
+.header-logo p {
+    margin: 0;
+    padding: 10px 50px;
+}
+
+.header-list {
+    display: flex;
+    align-items: center;
+	justify-content: flex-end;
+    margin-right: 50px;
+}
+
+.header-list a {
+    text-decoration: none;
+    color: white;
+    font-family: Helvetica, sans-serif;
+}
+
+header .btn {
+    padding: 8px 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+header .login {
+    background-color: #df0712;
+}
+
+header .login:hover {
+    background-color: #f50410;
+}
+
+header .login:active {
+    background-color: #99040b;
+}
+
 .container {
     width: 100%;
     margin: 0 auto;
@@ -55,6 +108,7 @@ main {
     justify-content: center;
     align-items: center;
     text-align: center;
+    /* padding-top: min(30px, 10%); */
 }
 
 .top-wrapper .container h1 {
@@ -76,6 +130,8 @@ main {
 
 .email {
     display: flex;
+    width: 90%;
+    height: 60px;
 }
 
 .email input, button {
@@ -84,17 +140,16 @@ main {
 
 .email input {
     font-size: 15px;
-    padding: 20px 15px;
+    padding: 10px;
     flex-grow: 6;
     border: none;
 }
 
 .email .submit {
-    font-size: 25px;
+    font-size: 150%;
     background-color: #df0712;
     color: white;
     border: none;
-    padding: 20px 10px;
     cursor: pointer;
     float: left;
 }

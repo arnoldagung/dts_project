@@ -36,10 +36,26 @@
 }
 
 @media all and (max-width: 670px) {
+    header {
+        min-width: 365px;
+    }
+
+    .header-logo p {
+        padding: 10px 30px;
+        font-size: 40px;
+    }
+
+    .header-list {
+        margin-right: 20px;
+    }
+
+    main {
+        min-width: 365px;
+    }
     .main {
         background-size: 400%;
         background-position-x: 50%;
-        min-height: 400px;
+        /* min-height: 400px; */
     }
 
     .top-wrapper {
