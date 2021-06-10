@@ -1,4 +1,4 @@
 # Gateflix
-Project kelompok A04 untuk pelatihan DTS Kominfo bersama Progate.
-Hasil dapat dilihat di:
-arnoldagung.github.io/gateflix
+# Project kelompok A04 untuk pelatihan DTS Kominfo bersama Progate.
+# Hasil dapat dilihat di:
+# https://arnoldagung.github.io/gateflix
