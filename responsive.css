@@ -39,6 +39,11 @@
     .main {
         background-size: 400%;
         background-position-x: 50%;
+        min-height: 400px;
+    }
+
+    .top-wrapper {
+        min-height: 400px;
     }
 
     .top-wrapper .container {
