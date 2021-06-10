@@ -1,13 +1,109 @@
+html {
+    height: 100%;
+    margin: 0;
+}
+
 body {
     background-color: black;
     color: white;
-    font-family: 'Rubik', Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
     margin: 0;
+    height: 100%;
 }
 
 .container {
     width: 100%;
     margin: 0 auto;
+}
+
+main {
+    height: 100%;
+}
+
+.main {
+    color: white;
+    background-size: cover;
+    height: 100%;
+    animation-name: mainbg;
+    animation-duration: 60s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+}
+
+@keyframes mainbg {
+    0%, 15% {background-image: url(assets/background1.jpg);}
+    25%, 45% {background-image: url(assets/background2.jpg);}
+    55%, 75% {background-image: url(assets/background3.jpg);}
+    85%, 100% {background-image: url(assets/background4.jpg);}
+}
+
+.top-wrapper {
+    width: 100%;
+    height: 100%;
+    background: rgb(22,23,23);
+    background: linear-gradient(90deg, rgba(22,23,23,0.48503151260504207) 100%, rgba(180,180,180,0.5018382352941176) 100%);
+}
+
+.top-wrapper .container {
+    max-width: 1170px;
+    width: 50%;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.top-wrapper .container h1 {
+    font-size:  50px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.top-wrapper .container h2 {
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.top-wrapper .container p {
+    font-size: 17px;
+    margin-top: 50px;
+}
+
+.email {
+    display: flex;
+}
+
+.email input, button {
+    flex: auto;
+}
+
+.email input {
+    font-size: 15px;
+    padding: 20px 15px;
+    flex-grow: 6;
+    border: none;
+}
+
+.email .submit {
+    font-size: 25px;
+    background-color: #df0712;
+    color: white;
+    border: none;
+    padding: 20px 10px;
+    cursor: pointer;
+    float: left;
+}
+
+.email .submit:hover {
+    background-color: #f50410;
+}
+
+.email .submit:active {
+    background-color: #99040b;
 }
 
 .content-wrapper {
@@ -24,6 +120,7 @@ body {
 hr {
     border: 5px solid white;
     opacity: 0.3;
+    margin: 0;
 }
 
 .content:nth-of-type(2n) {

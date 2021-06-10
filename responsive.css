@@ -1,4 +1,25 @@
 @media all and (max-width: 1000px) {
+    .main {
+        background-position-x: 50%;
+    }
+
+    .top-wrapper .container h1 {
+        font-size:  30px;
+    }
+
+    .top-wrapper .container h2 {
+        font-size:  25px;
+    }
+
+    .email input {
+        padding: 10px;
+    }
+
+    .email .submit {
+        padding: 10px;
+        font-size: 20px;
+    }
+
     .content-txt h1 {
         font-size: 50px;
         margin: 0;
@@ -15,6 +36,39 @@
 }
 
 @media all and (max-width: 670px) {
+    .main {
+        background-size: 400%;
+        background-position-x: 50%;
+    }
+
+    .top-wrapper .container {
+        width: 80%;
+    }
+
+    .top-wrapper .container h1 {
+        font-size:  28px;
+    }
+
+    .top-wrapper .container h2 {
+        font-size:  22px;
+    }
+
+    .email {        
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .email input {
+        width: 90%;
+    }
+
+    .email .submit {
+        margin-top: 20px;
+        font-size: 20px;
+        width: 100px;
+        padding: 10px;
+    }
+
     .content {
         max-width: 600px;
         flex-direction: column;
@@ -30,7 +84,7 @@
     }
 
     .content-txt h1 {
-        font-size: 35px;
+        font-size: 30px;
         margin: 0;
     }
 
