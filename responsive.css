@@ -117,4 +117,22 @@
     hr {
         border: 2px solid white;
     }
+
+    .content-bottom{
+        padding: 100px 0;
+    }
+    .content-bottom .heading {
+        font-size: 25px;
+        margin-left: 30px;
+        margin-right: 30px;
+        text-align: center;
+    }
+
+    .button {
+        flex-direction: column;
+    }
+
+    .button a {
+        font-size: 20px;
+    }
 }
